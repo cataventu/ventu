@@ -1,0 +1,25 @@
+.hotsite-banner {
+   width: 706px;
+   border: 3px solid #428bca;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hotsite-banner img { 
+   width: 100%;
+   z-index: 700; 
+}
+
+.hotsite-button {
+   position: absolute;
+}
+
+.hotsite-delete {
+   position: absolute;
+   float: right;
+   top: 35px;
+   left: 25px;
+   font-size: 16px;
+   z-index: 800; 
+}

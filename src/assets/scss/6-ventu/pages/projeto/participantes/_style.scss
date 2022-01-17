@@ -1,0 +1,19 @@
+.tb-participantes-id          { width: 090px; }
+.tb-participantes-tag         { width: 120px; }
+.tb-participantes-nome        { width: auto; } 
+.tb-participantes-check_in    { width: 120px; }
+.tb-participantes-check_out   { width: 120px; }
+.tb-participantes-buttons     { width: 110px; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+
+@include media-breakpoint-between(xs, sm) {
+   .tb-participantes-id             { display: none; }
+ //  .tb-participantes-tag            { display: none; }
+ 
+ }
+ 
+ @include media-breakpoint-between(sm, md) {
+ //  .tb-participantes-tag   { display: none; }
+ }
+ 

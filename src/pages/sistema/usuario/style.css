@@ -1,0 +1,26 @@
+.usuario-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.usuario-icon-up, .usuario-icon-down { 
+  position: relative;
+  margin-right: 12px !important;
+  margin-top: 4px;
+}
+
+.usuario-icon-down { margin-top: -12px; display: none;  }
+
+.usuario-btn-permissoes {
+  float: right;
+  margin-right: 20px;
+  margin-top: -2px;
+}
+
+.usuario-linha-selecionada {
+  background-color: blue;
+  opacity: 0.75;
+  color: white;
+}

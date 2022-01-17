@@ -1,0 +1,26 @@
+@import "../1-variables/app";
+
+@media print {
+  body { 
+    font-size: 14px !important; 
+    background-color: $white; color: $_dark;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+  }
+  .consulta-body { 
+    max-width: 100%; 
+  }
+  .consulta-footer { 
+    bottom: 0; 
+    position: fixed; 
+    text-align: center; 
+    width: 95%; 
+  }
+  .d-print-pagebreak { 
+    clear: both !important;
+    page-break-before: always !important; 
+  }
+}
+

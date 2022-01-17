@@ -1,0 +1,71 @@
+.tb-col-orcamento-ficha-id                { width: 70px; }        
+.tb-col-orcamento-ficha-data              { width: 090px; text-align: right; }
+.tb-col-orcamento-ficha-descricao         { width: auto;  }        
+.tb-col-orcamento-ficha-servico           { width: 200px; }          
+.tb-col-orcamento-ficha-qtd               { width: 070px; text-align: right; }              
+.tb-col-orcamento-ficha-dias              { width: 070px; text-align: right; }             
+.tb-col-orcamento-ficha-valor-unitario    { width: 130px; text-align: right; }   
+.tb-col-orcamento-ficha-valor-cliente     { width: 120px; text-align: right; }   
+.tb-col-orcamento-ficha-taxas             { width: 080px; text-align: right; }
+.tb-col-orcamento-ficha-desconto          { width: 100px; text-align: right; }
+.tb-col-orcamento-ficha-total             { width: 120px; text-align: right; }
+.tb-col-orcamento-ficha-buttons           { width: 110px; text-align: right; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+@include media-breakpoint-between(xs, sm) {
+  .tb-col-orcamento-ficha-id                { display: none; }
+  .tb-col-orcamento-ficha-servico           { display: none; }
+  .tb-col-orcamento-ficha-fornecedor        { display: none; }
+  .tb-col-orcamento-ficha-qtd               { display: none; }
+  .tb-col-orcamento-ficha-taxas             { display: none; }
+  .tb-col-orcamento-ficha-dias              { display: none; }
+}
+
+@include media-breakpoint-between(sm, md){
+  .tb-col-orcamento-ficha-servico           { display: none; }
+  .tb-col-orcamento-ficha-fornecedor        { display: none; }
+  .tb-col-orcamento-ficha-taxas             { display: none; }
+  .tb-col-orcamento-ficha-dias              { display: none; }
+}
+
+@include media-breakpoint-between(md, lg) {
+  .tb-col-orcamento-ficha-servico           { display: none; }
+}
+
+.orcamento-quantidade-container {   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+  input {  
+    width: 80px;
+    margin-left: 18px;
+  }
+}
+
+.orcamento-quantidade-container-externo {  
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.orcamento-pagantes {
+   width: 110px;
+   padding-left: 24px;
+}
+
+.orcamento-participantes-container {
+   margin: 0;
+   padding: 6px;
+   width: auto;
+   height: 75px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.orcamento-servico-data-container {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}

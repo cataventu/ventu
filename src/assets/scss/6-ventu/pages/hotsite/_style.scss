@@ -1,0 +1,56 @@
+////// errors
+.hotsite-error-text-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;     
+}
+
+.hotsite-error-text {
+   font-size: 24px;
+}
+
+.hotsite-error-icon {
+   font-size: 64px;
+}
+
+////// header
+.hotsite-header {
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   margin-bottom: 16px ;
+}
+
+.hotsite-header-text-container {
+   display: flex;
+   align-items: baseline;
+   justify-content: center;
+}
+
+////// login
+.body-hotsite {
+   padding: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card-icon {
+   float: left;   
+   font-size: 16px;
+   padding: 0;
+   margin: 0;
+   margin-top: 6px;
+   cursor: pointer;
+   opacity: 0.75;
+}
+
+.card-title {
+   font-weight: 100;
+   font-size: 18px;
+   float: left;
+   margin: 2px 0 4px 12px;  
+   font-family: Arial;
+   font-style: oblique;
+}

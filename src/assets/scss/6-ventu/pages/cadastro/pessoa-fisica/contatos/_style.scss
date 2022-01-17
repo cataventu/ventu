@@ -1,0 +1,15 @@
+.tb-contatos-tipo       { width: 80px; }
+.tb-contatos-endereco   { width: auto;  }
+.tb-contatos-descricao  { width: auto; }
+.tb-contatos-buttons    { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-contatos-tipo       { display: none;  }
+   .tb-contatos-descricao  { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-contatos-tipo       { display: none;  }
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

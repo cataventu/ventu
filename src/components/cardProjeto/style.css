@@ -1,0 +1,64 @@
+.project a { text-decoration: none; }
+
+.project hr { 
+   width: 88%;
+   border: 0.5px solid #DDD;
+   margin-bottom: 0; 
+}
+
+.project a:hover { color: #47BAC1; }
+
+.dropdown-reports-project {
+   width: 205px;
+}
+
+.project-row { 
+   line-height: 30px; 
+}
+.project-label { 
+   float: left;
+   padding-left: 12px;
+}
+.project-info {  
+   padding-top: 4px;
+   padding-left: 12px;
+}
+
+.project-footer { padding-top: 0; }
+
+.project-badge { 
+   float: left;
+   margin-top: -1px;
+   margin-right: 12px;
+   padding: 4px 8px 4px 8px;
+}
+
+.project-header-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+
+.project-header-banner {
+   position: relative;
+   width: 100%;
+   background-color: #EFEFEF;
+   border-bottom: 2px solid #DFDFDF;
+} 
+
+.project-header-banner img {
+   width: 100%;
+} 
+
+.project-header-text {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: row;
+
+   position: relative;
+   width: 100%;
+} 
+
+

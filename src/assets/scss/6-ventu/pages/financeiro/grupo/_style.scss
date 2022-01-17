@@ -1,0 +1,14 @@
+.tb-grupo-id         { width: 080px; }
+.tb-grupo-tipo       { width: 100px; }
+.tb-grupo-descricao  { width: auto;  }
+.tb-grupo-buttons    { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+.tb-grupo-id       { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

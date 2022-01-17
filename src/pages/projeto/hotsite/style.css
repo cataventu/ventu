@@ -1,0 +1,54 @@
+.hotsite-icon-link {
+   position: absolute;
+   right: 16px;
+   height: 33px;
+   width: 33px;
+   margin-top: -33px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3px;
+}
+
+.hotsite-input-url {
+   display: flex;
+   align-items: center;
+   height: 33px;
+}
+
+.hotsite-container {
+   display: flex;
+   align-items: center !important;
+}
+
+.hotsite-editar-container {
+   height: 100%;
+}
+
+.hotsite-banner {
+   max-width: 1006px;
+   min-height: 125px;
+   max-height: 206px;
+   border: 3px solid #428bca;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hotsite-banner img { 
+   width: 100%;
+   z-index: 700; 
+}
+
+.hotsite-button {
+   position: absolute;
+}
+
+.hotsite-delete {
+   position: absolute;
+   float: right;
+   top: 35px;
+   left: 25px;
+   font-size: 16px;
+   z-index: 800; 
+}

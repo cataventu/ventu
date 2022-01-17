@@ -1,0 +1,16 @@
+.tb-moeda-id         { width: 080px; }
+.tb-moeda-descricao  { width: auto;  }
+.tb-moeda-codigo     { width: 110px; }
+.tb-moeda-bacen      { width: 110px; }
+.tb-moeda-buttons    { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-moeda-id       { display: none;  }
+   .tb-moeda-codigo   { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-moeda-id       { display: none;  }
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

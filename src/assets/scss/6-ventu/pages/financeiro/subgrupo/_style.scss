@@ -1,0 +1,13 @@
+.tb-subgrupo-id         { width: 080px; }
+.tb-subgrupo-grupo      { width: auto;  }
+.tb-subgrupo-descricao  { width: auto;  }
+.tb-subgrupo-buttons    { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-subgrupo-id       { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

@@ -1,0 +1,41 @@
+.projeto-painel-navlink { font-size: 12px; }
+
+.painel-container-cards, .painel-container-table {
+   height: 0px !important;
+   z-index: -3000 !important;
+   opacity: 0;
+   transition-timing-function: linear;
+   transition-duration: 0.4s;
+   transition-property:  opacity height;
+}
+
+.painel-container-cards.exibe, .painel-container-table.exibe { 
+   height: auto !important;
+   opacity: 1;
+   transition-timing-function: linear;
+   transition-duration: 0.4s;
+   transition-property:  opacity height; 
+}
+
+.tb-painel-id         { width: 090px; }
+.tb-painel-descricao  { width: auto;  }
+.tb-painel-status     { width: 120px; } 
+.tb-painel-tipo       { width: 120px; }
+.tb-painel-vagas      { width: 080px; }
+.tb-painel-codigo     { width: 125px; } 
+.tb-painel-dt-inicio  { width: 100px; }   
+.tb-painel-dt-termino { width: 100px; }     
+.tb-painel-buttons    { width: 130px; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+
+@include media-breakpoint-between(xs, sm) {
+   .tb-painel-id                   { display: none; }
+   .tb-painel-descricao            { display: none; }
+   .tb-painel-tipo                 { display: none; }
+ }
+ 
+ @include media-breakpoint-between(sm, md) {
+   .tb-painel-descricao   { display: none; }
+ }
+ 

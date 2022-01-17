@@ -1,0 +1,150 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600');
+
+// Variables
+@import "1-variables/app";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Theme mixins
+@import "2-mixins/button";
+@import "2-mixins/modal";
+@import "2-mixins/switch";
+@import "2-mixins/tabs";
+@import "2-mixins/wizard";
+
+// Theme components
+@import "3-components/accordion";
+@import "3-components/alert";
+@import "3-components/avatar";
+@import "3-components/badge";
+@import "3-components/buttons";
+@import "3-components/card";
+@import "3-components/chart";
+@import "3-components/dropdown";
+@import "3-components/feather";
+@import "3-components/footer";
+@import "3-components/forms";
+@import "3-components/hamburger";
+@import "3-components/landing";
+@import "3-components/modal";
+@import "3-components/navbar";
+@import "3-components/reboot";
+@import "3-components/progress";
+@import "3-components/sidebar";
+@import "3-components/sizing";
+@import "3-components/tables";
+@import "3-components/tabs";
+@import "3-components/timeline";
+@import "3-components/type";
+@import "3-components/wrapper";
+@import "3-components/content";
+@import "3-components/main";
+@import "3-components/settings";
+@import "3-components/ie";
+
+// Theme utilities
+@import "4-utilities/borders";
+@import "4-utilities/cursors";
+@import "4-utilities/overflow";
+@import "4-utilities/position";
+
+// 3rd party plugins
+@import "react-quill/dist/quill.bubble";
+@import "react-quill/dist/quill.snow";
+@import 'react-redux-toastr/src/styles/index';
+@import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min';
+@import "jvectormap-next/jquery-jvectormap";
+@import "react-dragula/dist/dragula";
+@import "fullcalendar/dist/fullcalendar";
+@import "smartwizard/dist/css/smart_wizard";
+@import "smartwizard/dist/css/smart_wizard_theme_arrows";
+
+// 3rd party plugin styles
+@import "5-vendor/fullcalendar";
+@import "5-vendor/perfect-scrollbar";
+@import "5-vendor/quill";
+@import "5-vendor/react-bootstrap-table";
+@import "5-vendor/react-datetime";
+@import "5-vendor/react-select";
+@import "5-vendor/toastr";
+@import "5-vendor/wizard";
+
+/////////////////////////////////
+/// my scss
+/////////////////////////////////
+@import "6-ventu/colors";
+@import "6-ventu/print";
+@import "6-ventu/geral";
+
+@import "6-ventu/components/autoCompletar";
+@import "6-ventu/components/buttonSwitch";
+@import "6-ventu/components/cardHeaderName";
+@import "6-ventu/components/checkboxUserPermissao";
+@import "6-ventu/components/help";
+@import "6-ventu/components/menuPFisica";
+@import "6-ventu/components/modal";
+@import "6-ventu/components/navbar";
+@import "6-ventu/components/pageTitle";
+@import "6-ventu/components/paginaOcorrencia";
+@import "6-ventu/components/sidebar";
+@import "6-ventu/components/tableTotal";
+@import "6-ventu/components/tabNavItem";
+
+@import "6-ventu/layouts/hotsite";
+
+@import "6-ventu/pages/anexo/style";
+@import "6-ventu/pages/auth/signIn";
+@import "6-ventu/pages/hotsite/style";
+
+@import "6-ventu/pages/financeiro/movimento/style";
+@import "6-ventu/pages/financeiro/movimento/relatorios/style";
+@import "6-ventu/pages/financeiro/movimento/transferir/style";
+@import "6-ventu/pages/financeiro/cambio/style";
+@import "6-ventu/pages/financeiro/cartaocorp/style";
+@import "6-ventu/pages/financeiro/fixo/style";
+@import "6-ventu/pages/financeiro/grupo/style";
+
+@import "6-ventu/pages/projeto/orcamento/style";
+@import "6-ventu/pages/projeto/servico/style";
+@import "6-ventu/pages/projeto/orcamento/servicos";
+@import "6-ventu/pages/projeto/rsvp/style";
+@import "6-ventu/pages/projeto/style";
+@import "6-ventu/pages/projeto/participantes/style";
+@import "6-ventu/pages/projeto/roominglist/style";
+
+@import "6-ventu/pages/tabelas/aeroporto/style";
+@import "6-ventu/pages/tabelas/municipio/style";
+@import "6-ventu/pages/tabelas/pais/style";
+@import "6-ventu/pages/tabelas/perfil/style";
+@import "6-ventu/pages/tabelas/profissao/style";
+@import "6-ventu/pages/tabelas/ramoatividade/style";
+@import "6-ventu/pages/tabelas/servico/style";
+@import "6-ventu/pages/tabelas/tipo_cartao/style";
+
+@import "6-ventu/pages/sistema/bem_vindo/style";
+@import "6-ventu/pages/sistema/categoria/style";
+@import "6-ventu/pages/sistema/change_log/style";
+@import "6-ventu/pages/sistema/email/style";
+@import "6-ventu/pages/sistema/grupo/style";
+
+@import "6-ventu/pages/cadastro/pessoa-fisica/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/cartoes/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/contatos/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/dados-pessoais/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/enderecos/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/passaportes/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/perfil/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/servicos/style";
+@import "6-ventu/pages/cadastro/pessoa-fisica/vistos/style";
+
+@import "6-ventu/pages/cadastro/pessoa-juridica/style";
+@import "6-ventu/pages/cadastro/pessoa-juridica/contatos/style";
+@import "6-ventu/pages/cadastro/pessoa-juridica/enderecos/style";
+@import "6-ventu/pages/cadastro/pessoa-juridica/servicos/style";
+
+
+
+
+

@@ -1,0 +1,10 @@
+.ficha04-title-totais {
+   float: left;
+   position: absolute;
+   margin-top: -9px;
+   background-color: #FFF;  
+   font-weight: bold;
+   padding-left: 6px;
+   padding-right: 6px;
+   font-size: 13px; 
+}

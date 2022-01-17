@@ -1,0 +1,235 @@
+.tb-col-tarifa { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+
+
+/* MOVIMENTO */
+
+.tb-col-movimento-id {
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+.tb-col-movimento-documento {
+   font-size: 12px;
+   width: 150px; 
+   text-align: left;  
+}
+.tb-col-movimento-dt_vencimento {
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+
+.tb-col-movimento-contato {
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+.tb-col-movimento-valor {
+   font-size: 12px;
+   width: 100px; 
+   text-align: right;  
+}
+
+
+/* TABELA PAX */
+
+.tb-col-pax-id { 
+   font-size: 12px;
+   width: 050px; 
+   text-align: left;  
+}
+.tb-col-pax-nome_completo { 
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+.tb-col-pax-nome_reserva { 
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+.tb-col-pax-dtipo { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+
+/* TABELA BILHETE */
+
+.tb-col-bilhete-id { 
+   font-size: 12px;
+   width: 050px; 
+   text-align: left;  
+}
+.tb-col-bilhete-dt_emissao { 
+   font-size: 12px;
+   width: 120px; 
+   text-align: left;  
+}
+.tb-col-bilhete-numero { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+.tb-col-bilhete-tour_code { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+.tb-col-bilhete-cia { 
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+.tb-col-bilhete-rota { 
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+
+
+
+/* TABELA ITINERARIO */
+.tb-col-itinerario-cia { 
+   font-size: 12px;
+   width: 070px; 
+   text-align: left;  
+}
+.tb-col-itinerario-voo { 
+   font-size: 12px;
+   width: 070px; 
+   text-align: left;  
+}
+.tb-col-itinerario-dtemb { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+.tb-col-itinerario-origem { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+.tb-col-itinerario-destino { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+.tb-col-itinerario-tipo { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}
+.tb-col-itinerario-classe { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}
+.tb-col-itinerario-farebasis { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: left;  
+}
+
+.tb-col-itinerario-hremb { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+.tb-col-itinerario-hrdes { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+.tb-col-itinerario-localizador { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+
+/* TABELA CONDPAG */
+.tb-col-condpag-pagador { 
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+.tb-col-condpag-parcela { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: center;  
+}
+.tb-col-condpag-data { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+.tb-col-condpag-rateio { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}
+.tb-col-condpag-valor { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: right;  
+}
+.tb-col-condpag-cambio { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}
+.tb-col-condpag-dforma { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}.tb-col-condpag-fatura { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: center;  
+}
+/* TABELA CONDREC */
+.tb-col-condrec-pagador { 
+   font-size: 12px;
+   width: auto; 
+   text-align: left;  
+}
+.tb-col-condrec-parcela { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: center;  
+}
+.tb-col-condrec-data { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: left;  
+}
+.tb-col-condrec-rateio { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}
+.tb-col-condrec-valor { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: right;  
+}
+.tb-col-condrec-cambio { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}
+.tb-col-condrec-dforma { 
+   font-size: 12px;
+   width: 80px; 
+   text-align: center;  
+}.tb-col-condrec-fatura { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: center;  
+}
+
+.column-empty { width: 200px; }

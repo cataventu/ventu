@@ -1,0 +1,15 @@
+.tb-endereco-endereco           { width: auto; }
+.tb-endereco-tipo       { width: 100px; }
+.tb-endereco-cep         { width: auto; }
+.tb-endereco-buttons      { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-endereco-tipo     { display: none;  }
+   .tb-endereco-cep     { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-endereco-tipo     { display: none;  }
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

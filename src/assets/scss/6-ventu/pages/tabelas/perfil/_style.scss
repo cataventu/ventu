@@ -1,0 +1,11 @@
+.tb-perfil-id             { width: 080px; }
+.tb-perfil-dtipo          { width: 100px; }
+.tb-perfil-descricao      { width: auto; }
+.tb-perfil-buttons        { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-perfil-id                { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-perfil-id     { display: none;  }
+}

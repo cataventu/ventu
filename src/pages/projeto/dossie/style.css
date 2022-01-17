@@ -1,0 +1,25 @@
+.dossie-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dossie-switch-button-container, .dossie-save-button-container {
+  height: 50px;
+  width: 400px;
+}
+
+.dossie-switch-button-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.dossie-save-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+caption { caption-side:top; }

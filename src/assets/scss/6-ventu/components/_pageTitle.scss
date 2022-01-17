@@ -1,0 +1,17 @@
+.pagetitle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .pagetitle-voltar {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

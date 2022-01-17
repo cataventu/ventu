@@ -1,0 +1,20 @@
+.tb-col-rsvp-id         { width: 80px !important; }
+.tb-col-rsvp-associado  { width: 60px !important; }
+.tb-col-rsvp-nome       { width: auto !important; }
+.tb-col-rsvp-email      { width: auto !important; }
+.tb-col-rsvp-telefone   { width: 140px !important; }
+.tb-col-rsvp-status     { width: 120px !important; }
+.tb-col-rsvp-buttons    { width: 110px !important; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+
+@include media-breakpoint-between(xs, sm) {
+  .tb-col-rsvp-id           { display: none; }
+  .tb-col-rsvp-email        { display: none; }
+  .tb-col-rsvp-telefone     { display: none; }
+}
+
+@include media-breakpoint-between(sm, md) {
+  .tb-col-rsvp-email        { display: none; }
+ // .tb-col-rsvp-telefone     { display: none; }
+}

@@ -1,0 +1,90 @@
+// IMPORTS
+@import "../1-variables/app";
+
+/// VARIABLES
+$_light_white: #e6f0ff !important;
+$_light_white_hover: #d7e1f0 !important;
+
+$_blue: #428bca !important;
+$_blue_hover: #317bca !important;
+
+$_marine: #3050ff !important;
+$_marine_hover: #2040eb !important;
+
+$_green: #4ba74b !important;
+$_green_hover: #3a963a !important;
+
+$_orange: #f86f1f !important;
+$_orange_hover: #de5c11 !important;
+
+$_light_black: #354052 !important;
+$_light_black_hover: #273141 !important;
+
+$_black: #121212 !important;
+
+$_dark: #273141 !important;
+$_light_dark: #536480 !important;
+
+$_roxo: #851c4f !important;
+$_roxo_hover:$_roxo !important;
+
+.text-blue { color: $_blue }
+.btn-blue { background-color: $_blue; color: $white; }
+.btn-blue:hover { background-color: $_blue_hover; color: $white; }
+
+.text-gray { color: $gray-700; }
+.bg-gray { background-color: $gray-700 !important; }
+
+.btn-gray  { background-color: $gray-700; color: $white; }
+.btn-gray:hover  { background-color: $gray-800; color: $white; }
+
+.text-green { color: $_green; }
+.btn-green  { background-color: $_green; color: $white; }
+.btn-green:hover  { background-color: $_green_hover; color: $white; }
+
+.text-orange { color: $_orange }
+.btn-orange  { background-color: $_orange; color: $white; }
+.btn-orange:hover  { background-color: $_orange_hover; color: $white; }
+
+.bg-black { background-color: $_black; }
+.text-black { color: $_black; }
+
+.bg-roxo-ventu { background-color: $_roxo; }
+.text-roxo-ventu { color: $_roxo; }
+.btn-roxo-ventu { background-color: $_roxo_hover; color: $white; }
+.btn-roxo-ventu:hover  { background-color:$_roxo; color: $white; }
+
+.table-striped { background-color:  $_light_white; }
+
+.btn-filtro-ativo  { background-color: $_light_black; color:  $white; }
+.btn-filtro-ativo:hover  { background-color: $_light_black_hover; color:  $white; }
+
+.btn-padrao, .btn-filtro-inativo, .btn-filtro-interno  { background-color: $_light_white; color: $_black; }
+.btn-padrao:hover, .btn-filtro-inativo:hover, .btn-filtro-interno:hover { background-color: $_light_white_hover; color: $_black; }
+
+.bg-gray-medium { background-color: $gray-300; }
+.bg-gray-medium:hover  { background-color: $gray-400; }
+
+.bg-blue { background-color: $_marine }
+.bg-blue:hover { background-color: $_marine_hover }
+
+.bg-dark-2 { background-color: $_light_dark }
+
+.border-dark { 
+  border-color: $_dark;
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+.border-dark-2 { 
+  border-color: $_dark;
+  border-width: 2px !important;
+  border-style: solid !important;
+}
+.border-dark-right-2 { 
+  border-right-color: $_dark;
+  border-right-width: 2px !important;
+  border-right-style: solid !important;
+}
+
+.bg-hotsite-1 { background: linear-gradient( 112deg, #05545e 15%, #507882 98%); }
+.bg-hotsite-2 { background: linear-gradient( 112deg, #2355b4 15%, #5596b4 98%); }

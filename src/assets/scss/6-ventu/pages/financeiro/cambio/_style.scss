@@ -1,0 +1,15 @@
+.tb-cambio-id        { width: 080px; }
+.tb-cambio-data      { width: 110px; }
+.tb-cambio-moeda     { width: auto;  }
+.tb-cambio-cambio    { width: 110px; }
+.tb-cambio-buttons   { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-cambio-id       { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   /* .tb-cambio-id       { display: none;  } */
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

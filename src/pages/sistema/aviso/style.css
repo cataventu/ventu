@@ -1,0 +1,19 @@
+.container-aviso { 
+   position: fixed !important;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   overflow: hidden;
+   background-color: #E6F0FF;
+   background-image: url('../../../assets/img/ventu/construcao.png');
+   background-repeat: no-repeat;
+   background-position: center right;
+   background-size: 125%;
+   z-index: 10000;
+}
+
+/*** resolucao minima ***/
+@media (min-width: 720px) {
+   .container-aviso { display: none !important; }
+}

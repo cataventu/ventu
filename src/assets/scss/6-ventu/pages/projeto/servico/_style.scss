@@ -1,0 +1,46 @@
+.card-header-button-left {
+  border-radius: 4px 0 0 4px;
+  background-color: #536480;
+  border: none;
+}
+
+.card-header-button-middle {
+  border-radius: 0;   
+  margin-right: 1px;
+  background-color: #536480;
+  border: none;
+}
+
+.card-header-button-right {
+  border-radius: 0 4px 4px 0px;
+  margin-right: 8px;
+  background-color: #354052;
+  border: none;
+}
+
+.card-header-button-left:hover {
+  background-color: #354052;
+}
+
+.card-header-button-right:hover {
+  background-color: #212833;
+}
+
+.card-proservico-content {
+  height: auto !important;
+}
+
+.tb-projeto-servicos-id           { width: 090px; }
+.tb-projeto-servicos-servico      { width: auto;  }
+.tb-projeto-servicos-tipo-servico { width: 120px; }
+.tb-projeto-servicos-status       { width: 145px; }
+.tb-projeto-servicos-operacao     { width: 135px; }
+.tb-projeto-servicos-moeda        { width: 080px; text-align: left; }
+.tb-projeto-servicos-total        { width: 120px; text-align: right; }
+.tb-projeto-servicos-buttons      { width: 180px; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+@include media-breakpoint-between(xs, md) {
+  .tb-projeto-servicos-moeda        { display: none; }
+  .tb-projeto-servicos-total        { display: none; }
+}

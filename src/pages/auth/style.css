@@ -1,0 +1,19 @@
+.card-login { width: 400px;
+              left: 50%; 
+              position: absolute;
+              margin-left: -130px; 
+              margin-top: 215px; 
+              background-color: transparent;             
+              border: none; 
+          }
+
+.bg-login { z-index: -500; position: fixed;             
+            top: 0; left: 0; right: 0; bottom: 0; 
+            background-image: url("../../assets/img/photos/bg_login.jpg"); 
+            background-repeat: no-repeat;
+            background-position: top;     
+            margin-top: -150px;
+            background-size: cover;            
+          }
+
+.logo-login { width: 225px; position: fixed; top: 10px; left: 140px; }

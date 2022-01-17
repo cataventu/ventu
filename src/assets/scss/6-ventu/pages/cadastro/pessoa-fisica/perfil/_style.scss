@@ -1,0 +1,32 @@
+.perfil-ficha { height: 440px; }
+.perfil-lista { height: 300px; overflow-x: hidden; overflow-y: scroll; }
+.perfil-table-container { height: 310px; overflow-y: scroll; }
+
+.perfil-input { font-size: 11px !important; }
+
+.perfil-switch { width: 215px !important; height: 27px; padding-top: 2px !important; }
+.perfil-switch-label { width: 80px !important; padding: 2px 0px 0px 4px !important; }
+.perfil-switch-button { margin: 0px 0px 0px 40px !important;  padding: 0px 0px 0px 0px !important; }
+
+.perfil-column-lista { width: 58% !important; float: left; margin-right: 12px; }
+.perfil-column-resumo { width: 40% !important; float: left;  }
+
+.card-header-name-perfil { padding: 20px 42px 0px 32px; }
+
+@media (min-width: 720px) and (max-width: 991px) { 
+  .perfil-ficha { height: 600px;   }
+  .perfil-lista { height: 415px; overflow-x: hidden; overflow-y: scroll; }
+  
+  .perfil-column-lista { width: 98% !important; float: right; margin-right: 12px; }
+  .perfil-column-resumo { display: none;  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .perfil-ficha { height: 650px;   }
+  .perfil-lista { height: 470px; overflow-x: hidden; overflow-y: scroll; }
+  
+  .perfil-column-lista { width: 98% !important; float: right; margin-right: 12px; }
+  .perfil-column-resumo { display: none;  }
+}
+
+

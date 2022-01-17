@@ -1,0 +1,10 @@
+.tb-ficha05-id       { width: 120px; }
+.tb-ficha05-pagador  { width: auto; }
+.tb-ficha05-parcela  { width: 080px; text-align: right; }
+.tb-ficha05-data     { width: 100px; }
+.tb-ficha05-rateio   { width: 100px; text-align: right; }
+.tb-ficha05-valor    { width: 100px; text-align: right; }
+.tb-ficha05-cambio   { width: 090px; text-align: right; }
+.tb-ficha05-forma    { width: 075px; text-align: right; }
+.tb-ficha05-fatura   { width: 130px; text-align: right; }
+.tb-ficha05-buttons  { width: 090px; }

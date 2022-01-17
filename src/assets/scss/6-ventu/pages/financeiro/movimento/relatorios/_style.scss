@@ -1,0 +1,16 @@
+.filter {
+   max-height: 999999999999999px;
+   opacity: 1;
+   transition-timing-function: linear;
+   transition-duration: .1s, .2s;
+   transition-property: opacity, max-height;
+}
+
+.filter.oculta{
+   max-height: 0px;
+   opacity: 0;
+   pointer-events: none;
+   transition-timing-function: linear;
+   transition-duration: .2s, .4s ;
+   transition-property: opacity, max-height;
+}

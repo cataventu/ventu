@@ -1,0 +1,37 @@
+.td-fixo-id         { width: 070px; }
+.td-fixo-restrito   { width: 090px; }
+.td-fixo-dia        { width: 060px; }
+.td-fixo-contato    { width: auto; }
+.td-fixo-descricao  { width: auto; }
+.td-fixo-valor      { width: 120px; }
+.td-fixo-buttons    { width: 120px; }
+
+
+.table-total { margin-top: 0px; }
+.table-total-hr { height: 4px; }
+.column-texto { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: right; 
+   font-weight: bold; 
+}
+.column-valor { 
+   font-size: 12px;
+   width: 120px; 
+   text-align: right;
+}
+.column-empty { width: auto; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+@include media-breakpoint-between(xs, sm) {
+   .td-fixo-id        { display: none; }
+}
+ 
+ @include media-breakpoint-between(sm, md) {
+ //  .td-fixo-id        { display: none; }
+
+ }
+ 
+ @include media-breakpoint-between(md, lg) {
+
+ }

@@ -1,0 +1,29 @@
+.tb-grupo-id         { width: 70px; }
+.tb-grupo-cor        { width: 70px;  }
+.tb-grupo-descricao  { width: auto;  }
+.tb-grupo-buttons    { width: 90px; }
+
+.paramentros-categoria-Container-ficha {
+   width: 90px;
+   border: 1px solid #DFDFDF;
+   padding: 0;
+   position: absolute;
+   list-style-type: none;  
+} 
+
+.paramentros-categoria-Container-ficha li {
+   width: initial;
+   line-height: 28px;
+   margin-top: 0px;
+   padding-left: 9px;
+}
+
+.paramentros-categoria-Container-ficha {
+   width: 80px;
+   z-index: 2000;
+}
+
+.parametros-categoria-excluir {
+   position: absolute;
+   left: 55px;
+}

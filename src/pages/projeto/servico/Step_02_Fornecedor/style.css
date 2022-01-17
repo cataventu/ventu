@@ -1,0 +1,107 @@
+.tb-step-02-id       { width: 80px; }
+.tb-step-02-empresa  { width: 150px; }
+.tb-step-02-loc      { width: 150px; }
+.tb-step-02-pax      { width: auto; }
+.tb-step-02-bilhete  { width: 200px; }
+.tb-step-02-buttons  { width: 140px; }
+
+.step02-box-consolidador { 
+   width: auto;
+   margin-top: -20px !important;
+   border-radius: 0px 0px 8px 8px;   
+   background-color: #EFEFEF !important;
+   padding-top: 18px;
+   padding-bottom: 6px;
+   margin-bottom: 24px;
+}
+
+.step02-box-confirmacao { 
+   width: auto;
+   margin-top: 18px;
+   padding-top: 18px;
+   padding-bottom: 6px;
+   border: 1px solid #CDCDCD !important
+}
+
+.step02-label-confirmacao {
+   margin-top: -32px;
+   margin-left: 12px;
+   color: #303030 !important;
+   font-size: 14px;
+   font-weight: 300;
+   padding: 4px 8px;
+   position: absolute;
+   background-color: #FFF !important;
+}
+
+.card-consolidador {
+   z-index: 200;
+   position: absolute;
+
+   /* margin-top: -186px; */
+   /* margin-top: -365px; */ 
+   margin-top: -278px;
+   margin-left: -20px;
+   
+   width: 100%;
+   height: auto;
+   border: 1px solid #FEFEFE;
+
+   display: none;
+   opacity: 0;
+   transition-timing-function: linear;
+   transition-duration: .10s;
+   transition-property: opacity;
+}
+
+.bg-consolidador {  
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;   
+   z-index: 100;
+   background-color: rgba( 0, 0, 0, 0.5);
+   
+   display: none;
+   opacity: 0;
+   transition-timing-function: linear;
+   transition-duration: .15s;
+   transition-property: opacity;
+}
+
+.card-consolidador.exibe { 
+   display: block; 
+   opacity: 1;
+   transition-timing-function: linear;
+   transition-duration: .10s;
+   transition-property: opacity; 
+}
+
+
+.bg-consolidador.exibe { 
+   display: block; 
+   opacity: 1;
+   transition-timing-function: linear;
+   transition-duration: .15s;
+   transition-property: opacity; 
+}
+
+/*
+.filter {
+   max-height: 999999999999999px;
+   opacity: 1;
+   transition-timing-function: linear;
+   transition-duration: .1s, .2s;
+   transition-property: opacity, max-height;
+}
+
+.filter.oculta{
+   max-height: 0px;
+   opacity: 0;
+   pointer-events: none;
+   transition-timing-function: linear;
+   transition-duration: .2s, .4s ;
+   transition-property: opacity, max-height;
+}
+*/

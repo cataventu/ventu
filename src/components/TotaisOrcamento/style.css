@@ -1,0 +1,12 @@
+.totais-orcamento-container, .totais-orcamento-title{
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.totais-orcamento-title {  
+  margin-top: 8px;
+  margin-right: 18px;
+}

@@ -1,0 +1,13 @@
+CONSULTA (sem redux)      => https://www.youtube.com/watch?v=aR52U77VZKU
+PAGINA (sem redux)        => https://www.youtube.com/watch?v=C0gxD_8_StU
+FICHA (sem redux)         => https://www.youtube.com/watch?v=KK7ox5JKTzs
+FUNCOES (reestruturação ) => https://www.youtube.com/watch?v=OgGeV2zpnH4
+CRIAR COMPONENTE          => https://www.youtube.com/watch?v=-j6tOjVUYmU
+1 - ROTAS VENTU           => https://www.youtube.com/watch?v=6Q-joDrLlFM
+2 - LOGIN                 => https://www.youtube.com/watch?v=jo2sQGStduk
+3 - FUNCOES PERMISSOES    => https://www.youtube.com/watch?v=7d0JA9LIbjE
+4 - CSS                   => https://www.youtube.com/watch?v=sseSbQkMJtI
+5 - SUBIR VERSAO          => https://www.youtube.com/watch?v=GJDCCTaoPD0
+6 - SASS                  => https://www.youtube.com/watch?v=QUdCKIr1-bA
+7 AUTO COMPLETAR - PAX    => https://www.youtube.com/watch?v=t06zUK_xzi8
+8 - PROJETO - Erro salvar => https://www.youtube.com/watch?v=9QFLRca_TxE

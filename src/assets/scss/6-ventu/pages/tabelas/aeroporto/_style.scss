@@ -1,0 +1,17 @@
+.tb-aeroporto-id           { width: 080px; }
+.tb-aeroporto-codigo       { width: 100px; }
+.tb-aeroporto-nome         { width: auto; }
+.tb-aeroporto-municipio    { width: auto; }
+.tb-aeroporto-buttons      { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-aeroporto-id     { display: none;  }
+   .tb-aeroporto-codigo       { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-aeroporto-id       { display: none;  }
+   .tb-aeroporto-codigo  { display: none;  }
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+   .tb-aeroporto-id     { display: none;  }
+}

@@ -1,0 +1,61 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react", "import"
+    ],
+    "rules": {
+        "consistent-return":0,
+        "max-len": "off",
+        "linebreak-style": "off",
+        "spaced-comment":  ["error", "never"],
+        "camelcase":"off",
+        "indent": [2, 2, {"SwitchCase": 1}],
+        "lines-around-directive": "off",
+        "padding-line-between-statements": "warn",
+        "func-call-spacing": "warn",
+
+        "import/no-cycle": 0,
+        "import/prefer-default-export": 0,
+        "import/no-named-as-default": 0,
+        "import/no-named-as-default-member": 0,
+        
+        "react/prop-types": 0,
+        "react/no-array-index-key": 0,
+        "react/destructuring-assignment": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/jsx-filename-extension": [0],
+        
+        "no-case-declarations": "off",
+        "no-use-before-define": "off",
+        "no-inner-declarations": "warn",
+        "no-spaced-func": "off",
+        "no-shadow": "off",
+        "no-unused-expressions":"off",
+        "no-underscore-dangle": "off",
+        "no-nested-ternary": "off",
+
+        "jsx-a11y/click-events-have-key-events": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/interactive-supports-focus": 0,
+        "jsx-a11y/no-noninteractive-element-interactions": 0
+    }
+}

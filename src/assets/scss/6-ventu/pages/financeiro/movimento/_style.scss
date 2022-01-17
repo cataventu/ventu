@@ -1,0 +1,62 @@
+.td-movimento-acao               { width: 030px; }
+.td-movimento-parcelado          { width: 065px; }
+.td-movimento-id                 { width: 070px; }
+.td-movimento-contato            { width: auto;  }
+.td-movimento-documento          { width: 150px; }
+.td-movimento-vencimento         { width: 120px; text-align: right; }
+.td-movimento-valor              { width: 110px; text-align: right; }
+.td-movimento-status             { width: 120px; text-align: right; }
+.td-movimento-botoes             { width: 225px; }
+.td-movimento-botoesProjeto      { width: 090px; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+@include media-breakpoint-between(xs, sm) {
+  .td-movimento-parcelado { display: none; }
+  .td-movimento-contato   { display: none; }
+  .td-movimento-documento { display: none; }
+  .td-movimento-valor     { width: auto; }
+}
+
+@include media-breakpoint-between(sm, md) {
+  .td-movimento-contato   { display: none; }
+  .td-movimento-documento { display: none; }
+  .td-movimento-valor     { width: auto; }
+}
+
+@include media-breakpoint-between(md, lg) {
+  .td-movimento-valor  { width: 110px; }
+}
+
+.table-movimento thead { background-color: #344051; }
+.td-childrens { background-color: #354052; color: #DDD; }
+
+.table-childrens { width: 100% !important; }
+.div-childrens { margin: -8px -8px -8px -8px; }
+
+.dropdown-reports-movimento { width: 260px; }
+
+.table-total { margin-top: -58px; }
+.table-total-hr { height: 4px; }
+.column-texto-pagar { 
+   font-size: 12px;
+   width: auto; 
+   text-align: right; 
+   font-weight: bold; 
+}
+.column-valor-pagar { 
+   font-size: 12px;
+   width: 120px; 
+   text-align: right;
+}
+.column-texto-receber { 
+   font-size: 12px;
+   width: 120px;
+   text-align: right; 
+   font-weight: bold; 
+}
+.column-valor-receber { 
+   font-size: 12px;
+   width: 100px; 
+   text-align: right;  
+}
+.column-empty { width: 200px; }

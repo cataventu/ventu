@@ -1,0 +1,13 @@
+.tb-passaportes-numero       { width: 110px; }
+.tb-passaportes-pais_emissao { width: auto;  }
+.tb-passaportes-dt_validade  { width: 100px; }
+.tb-passaportes-buttons      { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-passaportes-pais_emissao     { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

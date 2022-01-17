@@ -1,0 +1,9 @@
+.tb-grupo-id         { width: 080px; }
+.tb-grupo-tipo       { width: auto; }
+.tb-grupo-descricao  { width: auto;  }
+.tb-grupo-buttons    { width: 110px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-grupo-id              { display: none;  }
+   .tb-grupo-descricao       { display: none;  }
+}

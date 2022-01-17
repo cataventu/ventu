@@ -1,0 +1,30 @@
+.wizard { margin-top: -21px !important; width: 100%; }
+
+.sw-btn-prev { 
+   background-color: #536480 !important; 
+   border: 1px solid #FFF !important;   
+}
+.sw-btn-prev:hover { 
+   background-color: #354052 !important; 
+}
+
+.sw-btn-next { 
+   background-color: #354052 !important; 
+   border: 1px solid #FFF !important;      
+}
+.sw-btn-next:hover { 
+   background-color: #243041 !important; 
+}
+
+.title-wizard { font-size: 15px !important; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .title-wizard { font-size: 11px !important; }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .title-wizard { font-size: 12px !important; }
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+   .title-wizard { font-size: 13px !important; }
+}

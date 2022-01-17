@@ -1,0 +1,5 @@
+@include media-breakpoint-between(xs, lg) {
+  .tab-nav-item-label { display: none; } 
+}
+
+.tab-ativo .tab-nav-item-label { display: inline; } 

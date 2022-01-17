@@ -1,0 +1,20 @@
+
+.tb-col-orcamento-id             { width: 70px; }
+.tb-col-orcamento-data           { width: 120px; }
+.tb-col-orcamento-titulo         { width: auto; }
+.tb-col-orcamento-participantes  { width: 120px; text-align: right; }
+.tb-col-orcamento-valor          { width: 120px; text-align: right; }
+.tb-col-orcamento-aprovado       { width: 100px; text-align: center;  }
+.tb-col-orcamento-buttons        { width: 170px; text-align: right; }
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+
+@include media-breakpoint-between(xs, sm) {
+  .tb-col-orcamento-id            { display: none; }
+  .tb-col-orcamento-participantes { display: none; }
+  .tb-col-orcamento-aprovado      { display: none; }
+}
+
+@include media-breakpoint-between(sm, md) {
+  .tb-col-orcamento-participantes  { display: none; }
+}

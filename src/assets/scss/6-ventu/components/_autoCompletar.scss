@@ -1,0 +1,65 @@
+@import "../../1-variables/app";
+@import '../colors';
+
+.auto-completar-container { 
+   height: auto;   
+   position: absolute;
+   z-index: 200;
+   padding-left: 0px;
+   padding-right: 30px;
+ }
+ 
+ .auto-completar-content { 
+     margin-top: 0px;     
+     border: 1px solid $_blue; 
+     border-radius: 0 !important;
+     height: auto;
+     min-height: 52px;
+     max-height: 145px;
+     overflow-x: auto;    
+     padding: 0px 0px 0px 0px;    
+     float: left;
+     z-index: 100;
+ }
+ 
+ .auto-completar-input {
+   padding-left: 30px !important;
+ }
+ 
+ .auto-completar-icon {
+   position: absolute;
+   color: $gray-500;
+   margin-top: 10px;
+   margin-left: 10px;
+ }
+ 
+ .auto-completar-icon-light {
+   position: absolute;
+   left: 0;
+   color: $gray-500;
+   padding-top: 10px !important;
+   margin-top: 1px;
+   margin-left: 16px;
+ }
+ 
+ .auto-completar-icon-trash {
+   position: absolute;
+   right: 0;
+   margin-top: 1px;
+   margin-right: 16px;
+ }
+ 
+ .auto-completar-item { 
+   line-height: 24px;
+   cursor: default;
+   padding-left: 16px;
+   padding-top: 2px !important;
+   padding-bottom: 2px !important;
+ }
+ 
+ .auto-completar-item-hover { 
+   background-color: $_marine;
+   color: $white;
+ }
+
+ 

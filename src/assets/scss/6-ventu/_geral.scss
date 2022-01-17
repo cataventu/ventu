@@ -1,0 +1,156 @@
+@import './colors';
+
+body { 
+  font-size: 12px !important; 
+  font-family: sans-serif; 
+  background-color: $_light_white; 
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+/// Texts
+//////////////////////////////
+h1   { font-size: 28px !important; font-weight: $font-weight-normal; }
+h2   { font-size: 24px !important; font-weight: $font-weight-normal; }
+h3   { font-size: 20px !important; font-weight: $font-weight-normal; }
+h4   { font-size: 18px !important; font-weight: $font-weight-normal; }
+h5   { font-size: 16px !important; font-weight: $font-weight-normal; }
+h6   { font-size: 14px !important; font-weight: $font-weight-normal; }
+
+p    { 
+  margin: 0 !important; 
+  padding: 0 !important; 
+  margin-bottom: 2px !important; 
+  font-weight: $font-weight-light;  
+}
+
+small { font-size: 11px !important; }
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+
+/// Columns
+//////////////////////////////
+.tb-col-1   { width: 08.3% !important; }
+.tb-col-2   { width: 16.6% !important; }
+.tb-col-3   { width: 24.9% !important; }
+.tb-col-4   { width: 33.2% !important; }
+.tb-col-5   { width: 41.5% !important; }
+.tb-col-6   { width: 49.8% !important; }
+.tb-col-7   { width: 58.1% !important; }
+.tb-col-8   { width: 66.4% !important; }
+.tb-col-9   { width: 74.7% !important; }
+.tb-col-10  { width: 83.0% !important; }
+.tb-col-11  { width: 91.3% !important; }
+.tb-col-12  { width: 100% !important;  }
+
+/// Display
+//////////////////////////////
+.show { display: block; }
+.hide { display: none !important; }
+.cursor { cursor: pointer !important; }
+.cursor-default { cursor: default !important; }
+.disable { opacity: 0.5; }
+.content { height: 100%; }
+
+.shadow { 
+  border: 1px solid $_dark !important; 
+  box-shadow: 2px 3px 4px 0px $_dark !important; 
+}
+
+.border-none, .border-none:focus { border: none !important; box-shadow: none !important; }
+
+ul {
+  a:hover { text-decoration: none !important; }
+} 
+
+.consulta-body { max-width: 900px; }
+
+.painel-container-switch {  
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  align-items: center;
+}
+
+/// Logo
+//////////////////////////////
+.logo-ventu { width: auto; height: 36px; }
+.logo-ventu-sidebar { width: auto; height: 34px; }
+
+/// Form
+//////////////////////////////
+input, select { 
+  padding-left: 7px !important;
+  text-transform: uppercase;
+}
+ textarea { 
+  padding-left: 7px !important;
+  // text-transform: uppercase;
+}
+textarea { 
+  min-height: 175px !important; 
+}
+
+input {
+  .checkbox { margin-top: 3px; }
+}
+
+input[type=date] {
+  width: 155px;
+  padding-right: 5px;
+}
+
+input[role=contentinfo] {
+  width: 80px;
+}
+
+.email, .obs, .link { text-transform: none; }
+
+.no-wrap { 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+hr { 
+  background-color: $gray-400; 
+  margin-top: 8px; 
+  margin-bottom: 18px; 
+}
+
+.validation-error { border: 2px solid $red; }
+
+/// Scrollbar
+//////////////////////////////
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #DEDEDE; }
+::-webkit-scrollbar-thumb,::-webkit-scrollbar-thumb:hover {  background: #484848; }
+
+/// Responsive
+//////////////////////////////
+
+/* xs: 0, sm: 720px, md: 900px, lg: 1200px, xl: 1380px */
+
+@include media-breakpoint-only(xs) { 
+  .main { display: none !important; }
+}
+
+@include media-breakpoint-between(xs, md) {
+  body { zoom: 0.9; } 
+}
+
+@include media-breakpoint-between(md, xl) {
+  body { zoom: 0.95; } 
+}
+
+@include media-breakpoint-only(xl) { 
+  body { zoom: 1; } 
+}

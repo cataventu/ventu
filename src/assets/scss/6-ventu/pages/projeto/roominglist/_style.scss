@@ -1,0 +1,40 @@
+.card-header-button-left {
+   border-radius: 4px 0 0 4px;
+   background-color: #536480;
+   border: none;
+}
+
+.card-header-button-middle {
+   border-radius: 0;   
+   margin-right: 1px;
+   background-color: #536480;
+   border: none;
+}
+
+.card-header-button-right {
+   border-radius: 0 4px 4px 0px;
+   margin-right: 8px;
+   background-color: #354052;
+   border: none;
+}
+
+.card-header-button-left:hover {
+   background-color: #354052;
+}
+
+.card-header-button-right:hover {
+   background-color: #212833;
+}
+
+.card-proservico-content {
+   height: auto !important;
+}
+
+.tb-rooming-id       { width: 70px;  }      
+.tb-rooming-tipo     { width: 70px;  }    
+.tb-rooming-apto     { width: 70px;  }    
+.tb-rooming-wakeup   { width: 90px;  }  
+.tb-rooming-inicio   { width: 130px; }  
+.tb-rooming-fim      { width: 100px; }     
+.tb-rooming-pax      { width: auto;  }
+.tb-rooming-buttons  { width: 60px;  } 

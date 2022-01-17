@@ -1,0 +1,109 @@
+
+.tb-tm-id         { width: 090px; }
+.tb-tm-titulo     { width: auto;  }
+.tb-tm-dt-inicio  { width: 130px; text-align: right; }   
+.tb-tm-dt-termino { width: 130px; text-align: right; }     
+.tb-tm-categoria  { width: 100px; } 
+.tb-tm-buttons    { width: 100px; }
+
+.TM-container-calendar, .TM-container-table {
+   height: 0px !important;
+   z-index: -3000 !important;
+   opacity: 0;
+   transition-timing-function: linear;
+   transition-duration: 0.4s;
+   transition-property:  opacity height;
+}
+
+.TM-container-calendar.exibe, .TM-container-table.exibe { 
+   height: auto !important;
+   opacity: 1;
+   transition-timing-function: linear;
+   transition-duration: 0.4s;
+   transition-property:  opacity height; 
+}
+
+.TM-tooltip {
+   width:auto;
+   height:auto;
+   font-size: 12px;
+   padding: 12px;
+   background: #FFF;
+   border-radius: 4px;
+   border: 1px solid #CFCFDF;
+   position:absolute;
+   z-index:2000;
+}
+
+.TM-Categoria-Container, .TM-Categoria-Container-ficha {
+   width: 90px;
+   border: 1px solid #DFDFDF;
+   padding: 0;
+   position: absolute;
+   list-style-type: none;  
+} 
+
+.TM-Categoria-Container li, .TM-Categoria-Container-ficha li {
+   width: initial;
+   line-height: 28px;
+   margin-top: 0px;
+   padding-left: 9px;
+}
+
+.TM-Categoria-Container-ficha {
+   width: 80px;
+   z-index: 2000;
+}
+
+.fc-title {
+   padding-left: 10px;
+}
+
+.TM-categoria-excluir {
+   position: absolute;
+   left: 65px;
+}
+
+.event-menu-calendar {
+   position: relative;
+   float: right;
+   z-index: 2000 !important;
+   background-color: #000;
+}
+
+
+.card-header-tm-button-left {
+   border-radius: 4px 0 0 4px;
+   background-color: #536480;
+   border: none;
+}
+
+.card-header-tm-button-middle {
+   border-radius: 0;   
+   background-color: #536480;
+   border: none;
+}
+
+
+.card-header-tm-button-anexo {
+   border-radius: 4px 0 0 4px; 
+   border: none;
+   margin-right: 2px;
+}
+
+.card-header-tm-button-anexo { background-color: #6c757d !important; }
+.card-header-tm-button-anexo:hover { background-color: #5a6173 !important; }
+
+.card-header-tm-button-excluir {
+   border-radius: 0 4px 4px 0px;
+   border: none;
+   margin-right: 8px;
+}
+
+.card-header-tm-button-right {
+   border-radius: 0 4px 4px 0px;
+   margin-right: 8px;
+   background-color: #354052;
+   border: none;
+   margin-left: 1px;
+}

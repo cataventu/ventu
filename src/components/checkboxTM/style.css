@@ -1,0 +1,32 @@
+
+.input-tm-servico,
+.input-tm-tipo-servico,
+.input-tm-fornecedor,
+.input-tm-confirmacao,
+.input-tm-valor,
+.input-tm-moeda { font-size: 11px !important; }
+
+
+
+.input-tm-servico { width: 150px !important; }
+.input-tm-fornecedor { width: 250px !important; }
+.input-tm-confirmacao { width: 60px !important; }
+.input-tm-tipo-servico { width: 70px !important; }
+
+@media (min-width: 900px) and (max-width: 1099px) { 
+   .input-tm-moeda,
+   .input-tm-confirmacao { display: none; } 
+
+   .input-tm-servico { width: 80px !important; }
+   .input-tm-fornecedor { width: 240px !important; }
+}
+
+
+@media screen and (max-width: 899px) { 
+   .input-tm-confirmacao, 
+   .input-tm-moeda,
+   .input-tm-valor { display: none; } 
+
+   .input-tm-servico { width: 80px !important; }
+   .input-tm-fornecedor { width: 200px !important; }
+}

@@ -1,0 +1,20 @@
+.tb-rservico-servico         { width: auto; }
+.tb-rservico-pag_prazo       { width: 110px; }
+.tb-rservico-dpag_criterio   { width: 120px; }
+.tb-rservico-rec_prazo       { width: 110px; }
+.tb-rservico-drec_criterio   { width: 120px; }
+
+.tb-rservico-buttons          { width: 115px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-rservico-pag_prazo     { display: none;  }
+   .tb-rservico-rec_prazo     { display: none;  }
+
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-rservico-pag_prazo     { display: none;  }
+   .tb-rservico-rec_prazo     { display: none;  }
+}
+@media (min-width: 1200px) and (max-width: 1379px) { 
+
+}

@@ -1,0 +1,23 @@
+.modal-container  { 
+   width: 500px;
+   position: fixed;
+   top: 25%;
+   left: 50%;
+   margin-left: -250px;
+}
+
+.modal-body { 
+text-align: center;
+background-color: #FFF;
+margin-top: -1px !important;
+}
+
+.modal-footer {          
+background-color: #FFF;
+margin-top: -1px !important;
+}
+
+.modal-backdrop {
+   width: 100% !important;
+   height: 100% !important;
+}

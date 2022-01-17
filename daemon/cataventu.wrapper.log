@@ -1,0 +1,2 @@
+2020-05-07 12:19:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Administrator\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file c:\react\ventu\server.js --log "CATAVENTU wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-05-07 12:19:06 - Started 6080

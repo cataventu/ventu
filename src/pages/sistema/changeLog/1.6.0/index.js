@@ -1,0 +1,103 @@
+const data = '10/09/2020';
+const versao = '1.6.0';
+
+export const log_1_6_0 = [
+  {
+    data,
+    versao,
+    modulo: 'PROJETO',
+    pagina: 'Rooming List',
+    atividade: 'Módulo de Rooming List.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'PROJETO',
+    pagina: 'Serviços',
+    atividade: 'Correção na rotina de editar Serviços (Bilhete não informado).',
+  },
+  {
+    data,
+    versao,
+    modulo: 'PROJETO',
+    pagina: 'Contratante',
+    atividade: 'Correção na rotina de salvar novo contratante no projeto.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'CADASTRO',
+    pagina: 'Pessoa Física',
+    atividade: 'Inclusão de ícones no menu lateral esquerdo.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'CADASTRO',
+    pagina: 'Pessoa Física',
+    atividade: 'Correção no erro de permissão de acesso/redirecionamento do menu Serviços.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'CADASTRO',
+    pagina: 'Pessoa Jurídica',
+    atividade: 'Inclusão de ícones no menu lateral esquerdo.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'CADASTRO',
+    pagina: 'Pessoa Jurídica',
+    atividade: 'Correção no erro de permissão de acesso/redirecionamento do menu Serviços.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'CADASTRO',
+    pagina: 'Ocorrências',
+    atividade: 'Correção do layout da tabela em resoluções menores.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'TABELAS',
+    pagina: 'Serviços',
+    atividade: 'Correção do layout da tabela em resoluções menores.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'SISTEMA',
+    pagina: 'Geral',
+    atividade: 'Correção na leitura de permissões do usuário nas abas do projeto.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'SISTEMA',
+    pagina: 'Geral',
+    atividade: 'Correção na leitura de permissões do usuário no submenu do Painel do projeto.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'SISTEMA',
+    pagina: 'Geral',
+    atividade: 'Política de segurança do login automático na mudança de versão de sistema.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'SISTEMA',
+    pagina: 'Usuário',
+    atividade: 'Correção no componente AutoCompletar na tela de replicar permissões.',
+  },
+  {
+    data,
+    versao,
+    modulo: 'SISTEMA',
+    pagina: 'Usuário',
+    atividade: 'Correção no componente AutoCompletar na tela de Agrupar Movimentos.',
+  },
+];

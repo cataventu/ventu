@@ -1,0 +1,12 @@
+.tb-pessoa-fisica-id             { width: 100px; }
+.tb-pessoa-fisica-nome_completo  { width: auto;  }
+.tb-pessoa-fisica-nome_reserva   { width: auto; }
+.tb-pessoa-fisica-buttons        { width: 140px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-pessoa-fisica-id               { display: none;  }
+   .tb-pessoa-fisica-nome_reserva     { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-pessoa-fisica-id               { display: none;  }
+}

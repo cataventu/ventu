@@ -1,0 +1,12 @@
+.tb-pessoa-juridica-id              { width: 90px; }
+.tb-pessoa-juridica-razao_social    { width: auto;  }
+.tb-pessoa-juridica-nome_fantasia   { width: auto; }
+.tb-pessoa-juridica-buttons         { width: 140px; }
+
+@media (min-width: 720px) and (max-width: 899px) { 
+   .tb-pessoa-juridica-id               { display: none;  }
+   .tb-pessoa-juridica-nome_fantasia    { display: none;  }
+}
+@media (min-width: 900px) and (max-width: 1199px) { 
+   .tb-pessoa-juridica-id               { display: none;  }
+}
